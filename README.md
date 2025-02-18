@@ -158,6 +158,7 @@ class CollaborationFramework:
 - [Hugging Face Hub](https://huggingface.co/docs/hub/index)
 - [Hugging Face AutoTrain](https://huggingface.co/docs/autotrain/index)
 - [Hugging Face Evaluate](https://huggingface.co/docs/evaluate/index)
+- [Hugging Face NLP Course - Supervised Fine-Tuning](https://huggingface.co/learn/nlp-course/en/chapter11/1)
 
 ### 참고자료
 Hugging Face 공식 자료
