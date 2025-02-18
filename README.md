@@ -7,12 +7,12 @@
 <div align="center">
 <a href="https://pseudo-lab.com"><img src="https://img.shields.io/badge/PseudoLab-S10-3776AB" alt="PseudoLab"/></a>
 <a href="https://discord.gg/EPurkHVtp2"><img src="https://img.shields.io/badge/Discord-BF40BF" alt="Discord Community"/></a>
-<a href="https://github.com/Pseudo-Lab/huggingface-hub-garden/stargazers"><img src="https://img.shields.io/github/stars/Pseudo-Lab/huggingface-hub-garden" alt="Stars Badge"/></a>
-<a href="https://github.com/Pseudo-Lab/huggingface-hub-garden/network/members"><img src="https://img.shields.io/github/forks/Pseudo-Lab/huggingface-hub-garden" alt="Forks Badge"/></a>
-<a href="https://github.com/Pseudo-Lab/huggingface-hub-garden/pulls"><img src="https://img.shields.io/github/issues-pr/Pseudo-Lab/huggingface-hub-garden" alt="Pull Requests Badge"/></a>
-<a href="https://github.com/Pseudo-Lab/huggingface-hub-garden/issues"><img src="https://img.shields.io/github/issues/Pseudo-Lab/huggingface-hub-garden" alt="Issues Badge"/></a>
-<a href="https://github.com/Pseudo-Lab/huggingface-hub-garden/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Pseudo-Lab/huggingface-hub-garden?color=2b9348"></a>
-<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FPseudo-Lab%2Fhuggingface-hub-garden&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
+<a href="https://github.com/Pseudo-Lab/Hugging-Face-Hub-Garden/stargazers"><img src="https://img.shields.io/github/stars/Pseudo-Lab/Hugging-Face-Hub-Garden" alt="Stars Badge"/></a>
+<a href="https://github.com/Pseudo-Lab/Hugging-Face-Hub-Garden/network/members"><img src="https://img.shields.io/github/forks/Pseudo-Lab/Hugging-Face-Hub-Garden" alt="Forks Badge"/></a>
+<a href="https://github.com/Pseudo-Lab/Hugging-Face-Hub-Garden/pulls"><img src="https://img.shields.io/github/issues-pr/Pseudo-Lab/Hugging-Face-Hub-Garden" alt="Pull Requests Badge"/></a>
+<a href="https://github.com/Pseudo-Lab/Hugging-Face-Hub-Garden/issues"><img src="https://img.shields.io/github/issues/Pseudo-Lab/Hugging-Face-Hub-Garden" alt="Issues Badge"/></a>
+<a href="https://github.com/Pseudo-Lab/Hugging-Face-Hub-Garden/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Pseudo-Lab/Hugging-Face-Hub-Garden?color=2b9348"></a>
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FPseudo-Lab%2FHugging-Face-Hub-Garden&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
 </div>
 <br>
 
@@ -44,7 +44,7 @@
 **Hugging Face KREW**는 **가짜연구소의 리서치 팀**으로, Hugging Face와 관련된 다양한 스터디 및 기여 활동을 진행하는 커뮤니티입니다. 🤗  
 이번 **10기**에서는 다음과 같은 프로젝트를 진행합니다.  
 - [**Hugging Face Beyond First PR**](https://github.com/Pseudo-Lab/Hugging-Face-Beyond-First-PR?tab=readme-ov-file)  
-- [**Hugging Face Hub Garden**](https://github.com/Pseudo-Lab/huggingface-hub-garden)
+- [**Hugging Face Hub Garden**](https://github.com/Pseudo-Lab/Hugging-Face-Hub-Garden)
 - [**Hugging Face 쿡북 요리사**](https://github.com/Pseudo-Lab/Hugging-Face-Cookbook-Class-Wars)
 
 Hugging Face KREW에 대해 더 알고 싶다면 [여기](https://calm-book-46f.notion.site/Hugging-Face-KREW-146f51a7c11780c3a6bfc1b72e9fd65e?pvs=4)에서 확인해보세요! 🚀✨
@@ -150,8 +150,8 @@ Hugging Face Hub Garden Project is developed as part of Pseudo-Lab's Open Resear
 [Pseudo-Lab](https://pseudo-lab.com/) is a non-profit organization focused on advancing machine learning and AI technologies. Our core values of Sharing, Motivation, and Collaborative Joy drive us to create impactful open-source projects. With over 5k+ researchers, we are committed to advancing machine learning and AI technologies.
 
 <h2>Contributors 😃</h2>
-<a href="https://github.com/Pseudo-Lab/huggingface-hub-garden/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Pseudo-Lab/huggingface-hub-garden" />
+<a href="https://github.com/Pseudo-Lab/Hugging-Face-Hub-Garden/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Pseudo-Lab/Hugging-Face-Hub-Garden" />
 </a>
 <br><br>
 
