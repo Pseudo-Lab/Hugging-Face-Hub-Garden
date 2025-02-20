@@ -1,6 +1,10 @@
+
 <p align="center"> 
     <img src="https://github.com/user-attachments/assets/24d5c812-4796-4079-aca6-1151ca002f01" width="550">
 </p>
+
+
+
 <h1 align="center"> 🤗 Hugging Face Hub Garden Project 🌿</h1>
 
 
@@ -21,12 +25,16 @@
 
 > Welcome to Hugging Face Hub Garden repository! We aim to cultivate a vibrant AI development community, offering tools and frameworks for dataset creation, model fine-tuning, and knowledge sharing. Join us in advancing the field of Korean language AI through open collaboration and innovation!
 
-## 🌟 Project Vision
-> _"데이터와 모델로 채우는 모두를 위한 AI 허브 가든"_
 
-<p align="center">
-    <img src="https://github.com/user-attachments/assets/cccc0aea-a87b-4be9-a49d-a7af9f0dd004" width="200" height="200">
+
+## 🌟 Project Vision
+<h3 align="center"> "데이터와 모델로 채우는 모두를 위한 AI 허브 가든" </h3>
+
+<p align="center"> 
+    <img src=https://github.com/user-attachments/assets/d1c88b83-6f7c-4a01-8a09-8ca6691714e6 width="500">
 </p>
+        
+
 
 **Hugging Face Hub Garden** 프로젝트는 단순한 데이터셋 구축을 넘어, **자신만의 자원을 만들어 세상과 공유하는 과정**을 경험하는 여정입니다.  
 
@@ -181,7 +189,13 @@ Hugging Face 공식 자료
 
 ### **✨ 이런 분을 찾고 있어요**
 
-Hugging Face Hub Garden 프로젝트는 **함께 성장하고, 배우고, 나누는 과정**을 중요하게 생각합니다. 우리는 단순한 결과물이 아니라, **과정에서의 협업과 배움을 즐길 수 있는 분**을 찾고 있어요. 
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/cccc0aea-a87b-4be9-a49d-a7af9f0dd004" width="200" height="200">
+</p>
+
+Hugging Face Hub Garden 프로젝트는 **함께 성장하고, 배우고, 나누는 과정**을 중요하게 생각합니다. 
+
+우리는 단순한 결과물이 아니라, **과정에서의 협업과 배움을 즐길 수 있는 분**을 찾고 있어요. 
 
 🔎 **이런 경험이 있는 분이라면 더욱 환영해요!**  
 ✔ **데이터와 AI에 관심이 많아요!**  
