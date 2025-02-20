@@ -49,6 +49,9 @@
 - [**Hugging Face Hub Garden**](https://github.com/Pseudo-Lab/Hugging-Face-Hub-Garden)
 - [**Hugging Face 쿡북 요리사**](https://github.com/Pseudo-Lab/Hugging-Face-Cookbook-Class-Wars)
 
+Hugging Face KREW는 Hugging Face 본사와 직접 소통할 수 있는 핫라인을 보유한 비영리 커뮤니티입니다.저희는 Hugging Face로부터 다양한 지원을 받아 협업을 진행해왔으며, 그 경험을 바탕으로 더 많은 연구자와 개발자가 AI 기술을 활용할 수 있도록 돕고자 합니다.
+**현재 Hugging Face에서 제공한 크레딧을 활용하여 데이터셋 제작과 파인튜닝을 위한 컴퓨팅 자원을 지원하고 있으며, 추가적으로 GPU 사용을 더욱 원활하게 지원할 계획입니다.**
+
 Hugging Face KREW에 대해 더 알고 싶다면 [여기](https://calm-book-46f.notion.site/Hugging-Face-KREW-146f51a7c11780c3a6bfc1b72e9fd65e?pvs=4)에서 확인해보세요! 🚀✨
 
 ---
