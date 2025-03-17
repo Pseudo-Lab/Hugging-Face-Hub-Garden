@@ -70,7 +70,7 @@ Hugging Face KREW에 대해 더 알고 싶다면 [여기](https://calm-book-46f.
 | 역할          | 이름 |  기술 스택 배지                                                                 | 주요 관심 분야                          |
 |---------------|------|-----------------------------------------------------------------------|----------------------------------------|
 | **Project Manager** | 김하림 | ![Python](https://img.shields.io/badge/Python-Expert-3776AB) ![PyTorch](https://img.shields.io/badge/Hugging_Face_🤗-EE4C2C) | 생성형 AI, 오픈소스 기여    |
-| **Member** | 김러너 | ![SQL](https://img.shields.io/badge/SQL-Advanced-003B57) ![BigQuery](https://img.shields.io/badge/BigQuery-4285F4) | 데이터 파이프라인 설계                  |
+| **Member** | 정재윤 | ![Pytorch](https://img.shields.io/badge/Pytorch-Intermediate-EE4C2C) ![Huggingface](https://img.shields.io/badge/Hugging_Face_🤗-FFD21E) |  VLA, CPC, 오픈소스 기여 |
 
 ---
 
