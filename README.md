@@ -69,13 +69,13 @@ Hugging Face KREW에 대해 더 알고 싶다면 [여기](https://calm-book-46f.
 
 | 역할          | 이름 |  기술 스택 배지                                                                 | 주요 관심 분야                          |
 |---------------|------|-----------------------------------------------------------------------|----------------------------------------|
-| **Project Manager** | 김하림  | ![Python](https://img.shields.io/badge/Python-Expert-3776AB) ![PyTorch](https://img.shields.io/badge/Hugging_Face_🤗-EE4C2C) | 생성형 AI, 오픈소스 기여    |
-| **Member** | 정재윤  | ![Pytorch](https://img.shields.io/badge/Pytorch-Intermediate-EE4C2C) ![Huggingface](https://img.shields.io/badge/Hugging_Face_🤗-FFD21E) |  VLA, CPC, 오픈소스 기여 |
-| **Member** | 유용상  | ![python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue) ![Huggingface](https://img.shields.io/badge/-HuggingFace-FDEE21?style=for-the-badge&logo=HuggingFace&logoColor=black) ![fastapi](https://img.shields.io/badge/fastapi-109989?style=for-the-badge&logo=FASTAPI&logoColor=white) | LLM, 대화 시스템, 언어 모델 평가 |
-| **Member** | 이정진  | ![Python](https://img.shields.io/badge/Python-Expert-3776AB) ![Huggingface](https://img.shields.io/badge/Hugging_Face_🤗-FFD21E) | 생성형 AI, Reasoning , 오픈소스 기여 |
-| **Member** | 조영준  | ![Python](https://img.shields.io/badge/Python-Beginner-FFD21E) ![Huggingface](https://img.shields.io/badge/Hugging_Face_🤗-EE4C2C) | 오픈소스 기여, 생성형 AI |
-| **Member** | 심소현  | ![Python](https://img.shields.io/badge/Python-Expert-3776AB) ![Huggingface](https://img.shields.io/badge/Hugging_Face_🤗-FFD21E) ![Pyspark](https://img.shields.io/badge/Pyspark-Expert-blue) | 데이터 분석, 추론, 오픈소스 기여 |
-| **Member** | 이수일  | ![Python](https://img.shields.io/badge/Python-Expert-3776AB) ![Pytorch](https://img.shields.io/badge/Pytorch-Intermediate-EE4C2C) | LLM 파인튜닝, MLOps  |
+| **Project Manager** | 김하림 &nbsp;| ![Python](https://img.shields.io/badge/Python-Expert-3776AB) ![PyTorch](https://img.shields.io/badge/Hugging_Face_🤗-EE4C2C) | 생성형 AI, 오픈소스 기여    |
+| **Member** | 정재윤 &nbsp;| ![Pytorch](https://img.shields.io/badge/Pytorch-Intermediate-EE4C2C) ![Huggingface](https://img.shields.io/badge/Hugging_Face_🤗-FFD21E) |  VLA, CPC, 오픈소스 기여 |
+| **Member** | 유용상 &nbsp;| ![python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue) ![Huggingface](https://img.shields.io/badge/-HuggingFace-FDEE21?style=for-the-badge&logo=HuggingFace&logoColor=black) ![fastapi](https://img.shields.io/badge/fastapi-109989?style=for-the-badge&logo=FASTAPI&logoColor=white) | LLM, 대화 시스템, 언어 모델 평가 |
+| **Member** | 이정진 &nbsp;| ![Python](https://img.shields.io/badge/Python-Expert-3776AB) ![Huggingface](https://img.shields.io/badge/Hugging_Face_🤗-FFD21E) | 생성형 AI, Reasoning , 오픈소스 기여 |
+| **Member** | 조영준 &nbsp;| ![Python](https://img.shields.io/badge/Python-Beginner-FFD21E) ![Huggingface](https://img.shields.io/badge/Hugging_Face_🤗-EE4C2C) | 오픈소스 기여, 생성형 AI |
+| **Member** | 심소현 &nbsp;| ![Python](https://img.shields.io/badge/Python-Expert-3776AB) ![Huggingface](https://img.shields.io/badge/Hugging_Face_🤗-FFD21E) ![Pyspark](https://img.shields.io/badge/Pyspark-Expert-blue) | 데이터 분석, 추론, 오픈소스 기여 |
+| **Member** | 이수일 &nbsp;| ![Python](https://img.shields.io/badge/Python-Expert-3776AB) ![Pytorch](https://img.shields.io/badge/Pytorch-Intermediate-EE4C2C) | LLM 파인튜닝, MLOps  |
 ---
 
 ## 🚀 Project Roadmap
