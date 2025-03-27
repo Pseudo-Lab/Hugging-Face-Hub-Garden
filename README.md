@@ -76,6 +76,7 @@ Hugging Face KREW에 대해 더 알고 싶다면 [여기](https://calm-book-46f.
 | **Member** | 조영준 &nbsp;| ![Python](https://img.shields.io/badge/Python-Beginner-FFD21E) ![Huggingface](https://img.shields.io/badge/Hugging_Face_🤗-EE4C2C) | 오픈소스 기여, 생성형 AI |
 | **Member** | 심소현 &nbsp;| ![Python](https://img.shields.io/badge/Python-Expert-3776AB) ![Huggingface](https://img.shields.io/badge/Hugging_Face_🤗-FFD21E) ![Pyspark](https://img.shields.io/badge/Pyspark-Expert-blue) | 데이터 분석, 추론, 오픈소스 기여 |
 | **Member** | 이수일 &nbsp;| ![Python](https://img.shields.io/badge/Python-Expert-3776AB) ![Pytorch](https://img.shields.io/badge/Pytorch-Intermediate-EE4C2C) | LLM 파인튜닝, MLOps  |
+| **Member** | 최성우 &nbsp;| ![Python](https://img.shields.io/badge/Python-Expert-3776AB) ![Huggingface](https://img.shields.io/badge/Hugging_Face_🤗-FFD21E) ![AWS](https://img.shields.io/badge/Amazon_Web_Services-232F3E) | 생성형 AI, 오픈소스 기여  |
 ---
 
 ## 🚀 Project Roadmap
