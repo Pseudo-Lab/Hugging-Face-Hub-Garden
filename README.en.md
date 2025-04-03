@@ -207,4 +207,43 @@ We're looking for people who can **enjoy collaboration and learning in the proce
 
 ✔ **You enjoy a culture of growing together!**  
 - You're interested in open source contributions or community activities.  
-- You enjoy organizing and sharing your
+- You enjoy organizing and sharing your knowledge (through blogs, seminars, code reviews, etc.).
+- You find joy in exchanging ideas and collaborating with other team members.
+
+✔ **You enjoy challenges and experiments!**
+- You like learning and experimenting with new technologies.
+- You're willing to actively take on new challenges and grow, even with unfamiliar tasks.
+- You find it fun to learn from failures and work together to find solutions.
+
+**It's okay if you don't meet all these conditions!**
+- We welcome those who are new to Hugging Face!
+- You can join us even if this is your first project in AI and data fields.
+- Anyone who wants to experience with a team what would be difficult to do alone is welcome to participate!
+
+**What you can experience in this project**
+✅ Creating your own datasets and training models
+✅ Experimenting with and sharing the latest AI models
+✅ Contributing to open source and collaborating in a community
+✅ Building practical skills and strengthening your portfolio through real project experience
+
+Let's meet at the Hugging Face Hub Garden ✨
+
+---
+
+## Acknowledgement 🙏
+
+Hugging Face Hub Garden Project is developed as part of Pseudo-Lab's Open Research Initiative. Special thanks to our contributors and the open source community for their valuable insights and contributions.
+
+## About Pseudo Lab 👋🏼</h2>
+
+[Pseudo-Lab](https://pseudo-lab.com/) is a non-profit organization focused on advancing machine learning and AI technologies. Our core values of Sharing, Motivation, and Collaborative Joy drive us to create impactful open-source projects. With over 5k+ researchers, we are committed to advancing machine learning and AI technologies.
+
+<h2>Contributors 😃</h2>
+<a href="https://github.com/Pseudo-Lab/Hugging-Face-Hub-Garden/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Pseudo-Lab/Hugging-Face-Hub-Garden" />
+</a>
+<br><br>
+
+<h2>License 🗞</h2>
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
