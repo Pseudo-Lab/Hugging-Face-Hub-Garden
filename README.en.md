@@ -61,14 +61,14 @@ To learn more about Hugging Face KREW, check [here](https://calm-book-46f.notion
 
 | Role          | Name |  Tech Stack Badges                                                                 | Main Interests                          |
 |---------------|------|-----------------------------------------------------------------------|----------------------------------------|
-| **Project Manager** | Kim Harheem &nbsp;| ![Python](https://img.shields.io/badge/Python-Expert-3776AB) ![PyTorch](https://img.shields.io/badge/Hugging_Face_🤗-EE4C2C) | Generative AI, Open Source Contribution    |
-| **Member** | Jung Jaeyoon &nbsp;| ![Pytorch](https://img.shields.io/badge/Pytorch-Intermediate-EE4C2C) ![Huggingface](https://img.shields.io/badge/Hugging_Face_🤗-FFD21E) |  VLA, CPC, Open Source Contribution |
-| **Member** | Yu Yongsang &nbsp;| ![python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue) ![Huggingface](https://img.shields.io/badge/-HuggingFace-FDEE21?style=for-the-badge&logo=HuggingFace&logoColor=black) ![fastapi](https://img.shields.io/badge/fastapi-109989?style=for-the-badge&logo=FASTAPI&logoColor=white) | LLM, Dialogue Systems, Language Model Evaluation |
-| **Member** | Lee Jungjin &nbsp;| ![Python](https://img.shields.io/badge/Python-Expert-3776AB) ![Huggingface](https://img.shields.io/badge/Hugging_Face_🤗-FFD21E) | Generative AI, Reasoning, Open Source Contribution |
-| **Member** | Cho Youngjun &nbsp;| ![Python](https://img.shields.io/badge/Python-Beginner-FFD21E) ![Huggingface](https://img.shields.io/badge/Hugging_Face_🤗-EE4C2C) | Open Source Contribution, Generative AI |
-| **Member** | Shim Sohyun &nbsp;| ![Python](https://img.shields.io/badge/Python-Expert-3776AB) ![Huggingface](https://img.shields.io/badge/Hugging_Face_🤗-FFD21E) ![Pyspark](https://img.shields.io/badge/Pyspark-Expert-blue) | Data Analysis, Inference, Open Source Contribution |
-| **Member** | Lee Suil &nbsp;| ![Python](https://img.shields.io/badge/Python-Expert-3776AB) ![Pytorch](https://img.shields.io/badge/Pytorch-Intermediate-EE4C2C) | LLM Fine-tuning, MLOps  |
-| **Member** | Choi Sungwoo &nbsp;| ![Python](https://img.shields.io/badge/Python-Expert-3776AB) ![Huggingface](https://img.shields.io/badge/Hugging_Face_🤗-FFD21E) ![AWS](https://img.shields.io/badge/Amazon_Web_Services-232F3E) | Generative AI, Open Source Contribution  |
+| **Project Manager** | Harheem Kim &nbsp;| ![Python](https://img.shields.io/badge/Python-Expert-3776AB) ![PyTorch](https://img.shields.io/badge/Hugging_Face_🤗-EE4C2C) | Generative AI, Open Source Contribution    |
+| **Member** | Jaeyoon Jung &nbsp;| ![Pytorch](https://img.shields.io/badge/Pytorch-Intermediate-EE4C2C) ![Huggingface](https://img.shields.io/badge/Hugging_Face_🤗-FFD21E) |  VLA, CPC, Open Source Contribution |
+| **Member** | Yongsang Yu &nbsp;| ![python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue) ![Huggingface](https://img.shields.io/badge/-HuggingFace-FDEE21?style=for-the-badge&logo=HuggingFace&logoColor=black) ![fastapi](https://img.shields.io/badge/fastapi-109989?style=for-the-badge&logo=FASTAPI&logoColor=white) | LLM, Dialogue Systems, Language Model Evaluation |
+| **Member** | Jungjin Lee &nbsp;| ![Python](https://img.shields.io/badge/Python-Expert-3776AB) ![Huggingface](https://img.shields.io/badge/Hugging_Face_🤗-FFD21E) | Generative AI, Reasoning, Open Source Contribution |
+| **Member** | Youngjun Cho &nbsp;| ![Python](https://img.shields.io/badge/Python-Beginner-FFD21E) ![Huggingface](https://img.shields.io/badge/Hugging_Face_🤗-EE4C2C) | Open Source Contribution, Generative AI |
+| **Member** | Sohyun Shim &nbsp;| ![Python](https://img.shields.io/badge/Python-Expert-3776AB) ![Huggingface](https://img.shields.io/badge/Hugging_Face_🤗-FFD21E) ![Pyspark](https://img.shields.io/badge/Pyspark-Expert-blue) | Data Analysis, Inference, Open Source Contribution |
+| **Member** | Suil Lee &nbsp;| ![Python](https://img.shields.io/badge/Python-Expert-3776AB) ![Pytorch](https://img.shields.io/badge/Pytorch-Intermediate-EE4C2C) | LLM Fine-tuning, MLOps  |
+| **Member** | Sungwoo Choi &nbsp;| ![Python](https://img.shields.io/badge/Python-Expert-3776AB) ![Huggingface](https://img.shields.io/badge/Hugging_Face_🤗-FFD21E) ![AWS](https://img.shields.io/badge/Amazon_Web_Services-232F3E) | Generative AI, Open Source Contribution  |
 ---
 
 ## 🚀 Project Roadmap
@@ -134,13 +134,13 @@ class CollaborationFramework:
 
 | Date | Mission | Seminar Topic | Presenter |  
 | :--------: | :------------------------------------------: | :--------------------------------------------: | :----: |  
-| 2025/03/06 | **Orientation** |  | Kim Harheem |  
-| 2025/03/13 | Project Topic Selection | How to Write a Project Proposal | Kim Harheem |  
-| 2025/03/20 | Data Collection | Introduction to Data Collection and Generation Techniques | Lee Jungjin |  
+| 2025/03/06 | **Orientation** |  | Harheem Kim |  
+| 2025/03/13 | Project Topic Selection | How to Write a Project Proposal | Harheem Kim |  
+| 2025/03/20 | Data Collection | Introduction to Data Collection and Generation Techniques | Jungjin Lee |  
 | 2025/03/27 | **✨ Magical Week ✨** |  |  |  
-| 2025/04/03 | Dataset Quality Validation and Enhancement | High-Quality Dataset Building Methodology | Shim Sohyun |  
+| 2025/04/03 | Dataset Quality Validation and Enhancement | High-Quality Dataset Building Methodology | Sohyun Shim |  
 | 2025/04/10 | Writing Hugging Face Dataset Cards | Hugging Face Dataset Card Guide<br>Exploring the Hugging Face Model Hub |  |  
-| 2025/04/17 | Model Exploration Phase 1 | Model Performance Evaluation Methodology | Lee Suil |  
+| 2025/04/17 | Model Exploration Phase 1 | Model Performance Evaluation Methodology | Suil Lee |  
 | 2025/04/24 | **✨ Magical Week ✨** |  |  |  
 | 2025/05/01 | Model Fine-tuning and Optimization | Efficient Model Fine-tuning Strategies |  |  
 | 2025/05/08 | Project Mid-term Review and Discussion<br>(Performance Analysis and Feedback)|  |  |  
