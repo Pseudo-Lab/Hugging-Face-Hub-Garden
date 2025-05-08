@@ -25,7 +25,7 @@
 <h3 align="center"> "An AI Hub Garden Filled with Data and Models for Everyone" </h3>
 
 <p align="center"> 
-    <img src=https://github.com/user-attachments/assets/d1c88b83-6f7c-4a01-8a09-8ca6691714e6 width="500">
+    <img src=https://github.com/user-attachments/assets/99b59a53-82f0-4729-ad74-9127817babfe width="500">
 </p>
         
 The **Hugging Face Hub Garden** project is a journey that goes beyond simply building datasets - it's about experiencing the process of **creating your own resources and sharing them with the world**.
