@@ -34,9 +34,9 @@
 <h3 align="center"> "데이터와 모델로 채우는 모두를 위한 AI 허브 가든" </h3>
 
 <p align="center"> 
-    <img src=https://github.com/user-attachments/assets/d1c88b83-6f7c-4a01-8a09-8ca6691714e6 width="500">
+    <img src=https://github.com/user-attachments/assets/99b59a53-82f0-4729-ad74-9127817babfe width="500">
 </p>
-        
+
 
 
 **Hugging Face Hub Garden** 프로젝트는 단순한 데이터셋 구축을 넘어, **자신만의 자원을 만들어 세상과 공유하는 과정**을 경험하는 여정입니다.  
