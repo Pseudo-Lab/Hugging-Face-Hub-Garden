@@ -64,7 +64,7 @@ To learn more about Hugging Face KREW, check [here](https://calm-book-46f.notion
 |---------------|------|-----------------------------------------------------------------------|----------------------------------------|
 | **Project Manager** | Harheem Kim &nbsp;| ![Python](https://img.shields.io/badge/Python-Expert-3776AB) ![PyTorch](https://img.shields.io/badge/Hugging_Face_🤗-EE4C2C) | Generative AI, Open Source Contribution    |
 | **Member** | Jaeyoon Jung &nbsp;| ![Pytorch](https://img.shields.io/badge/Pytorch-Intermediate-EE4C2C) ![Huggingface](https://img.shields.io/badge/Hugging_Face_🤗-FFD21E) |  VLA, CPC, Open Source Contribution |
-| **Member** | Yongsang Yu &nbsp;| ![python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue) ![Huggingface](https://img.shields.io/badge/-HuggingFace-FDEE21?style=for-the-badge&logo=HuggingFace&logoColor=black) ![fastapi](https://img.shields.io/badge/fastapi-109989?style=for-the-badge&logo=FASTAPI&logoColor=white) | LLM, Dialogue Systems, Language Model Evaluation |
+| **Member** | Yongsang Yoo &nbsp;| ![python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue) ![Huggingface](https://img.shields.io/badge/-HuggingFace-FDEE21?style=for-the-badge&logo=HuggingFace&logoColor=black) ![fastapi](https://img.shields.io/badge/fastapi-109989?style=for-the-badge&logo=FASTAPI&logoColor=white) | LLM, Dialogue Systems, Language Model Evaluation |
 | **Member** | Jungjin Lee &nbsp;| ![Python](https://img.shields.io/badge/Python-Expert-3776AB) ![Huggingface](https://img.shields.io/badge/Hugging_Face_🤗-FFD21E) | Generative AI, Reasoning, Open Source Contribution |
 | **Member** | Youngjun Cho &nbsp;| ![Python](https://img.shields.io/badge/Python-Beginner-FFD21E) ![Huggingface](https://img.shields.io/badge/Hugging_Face_🤗-EE4C2C) | Open Source Contribution, Generative AI |
 | **Member** | Sohyun Shim &nbsp;| ![Python](https://img.shields.io/badge/Python-Expert-3776AB) ![Huggingface](https://img.shields.io/badge/Hugging_Face_🤗-FFD21E) ![Pyspark](https://img.shields.io/badge/Pyspark-Expert-blue) | Data Analysis, Inference, Open Source Contribution |
@@ -140,16 +140,15 @@ class CollaborationFramework:
 | 2025/03/20 | Data Collection | Introduction to Data Collection and Generation Techniques | Jungjin Lee |  
 | 2025/03/27 | **✨ Magical Week ✨** |  |  |  
 | 2025/04/03 | Dataset Quality Validation and Enhancement | High-Quality Dataset Building Methodology | Sohyun Shim |  
-| 2025/04/10 | Writing Hugging Face Dataset Cards | Hugging Face Dataset Card Guide<br>Exploring the Hugging Face Model Hub |  |  
+| 2025/04/10 | Writing Hugging Face Dataset Cards | Hugging Face Dataset Card Guide<br>Exploring the Hugging Face Model Hub | Sungwoo Choi |  
 | 2025/04/17 | Model Exploration Phase 1 | Model Performance Evaluation Methodology | Suil Lee |  
 | 2025/04/24 | **✨ Magical Week ✨** |  |  |  
-| 2025/05/01 | Model Fine-tuning and Optimization | Efficient Model Fine-tuning Strategies |  |  
+| 2025/05/01 | Model Fine-tuning and Optimization | Efficient Model Fine-tuning Strategies | Yongsang Yoo |  
 | 2025/05/08 | Project Mid-term Review and Discussion<br>(Performance Analysis and Feedback)|  |  |  
-| 2025/05/15 | Final Model and Dataset Upload | Hugging Face Model Card Writing Guide |  |  
 | 2025/05/17 | **SudoCon Presentation** |  |  |  
-| 2025/05/22 | Implementing Hugging Face Space Demo Applications | Hugging Face Spaces Guide |  |  
-| 2025/05/29 | Guidebook and Blog Writing | Free Topic |  |  
-| 2025/06/05 | Guidebook and Blog Writing | Free Topic |  |  
+| 2025/05/22 | Final Model and Dataset Upload | Hugging Face Model Card Writing Guide | Youngjun Cho |  
+| 2025/05/29 | Implementing Hugging Face Space Demo Applications | Hugging Face Spaces Guide | Jaeyoon Jung |  
+| 2025/06/05 | Guidebook and Blog Writing | MCP with Gradio | Harheem Kim |  
 | 2025/06/12 |  | Project Wrap-up and Final Retrospective | All |
 
 ---
