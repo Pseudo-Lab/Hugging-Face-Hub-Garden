@@ -211,10 +211,10 @@ print(query)
 
 To improve the quality of the translated data, we conducted a manual review and identified the following major error types:
 
-| Error Type | Occurrences (out of 586 samples) | Details | Correction |
-| :--- | :--- | :--- | :--- |
-| 1. **Time/Number Comparison Errors** | 29 | `more than` was translated to a Korean term meaning "greater than or equal to." | Corrected to use precise terms that exclude the boundary value, like "greater than" or "less than." |
-| 2. **Awkward Korean Phrasing** | 23 | Use of unnatural subjects, redundant modifiers, or awkward vocabulary. | Revised to be more natural in a Korean context by omitting or rephrasing words. |
-| 3. **Subject-Predicate Mismatch** | 13 | A question asking for a count or age used an incorrect interrogative pronoun ("what" instead of "how many"). | Corrected to use the appropriate predicate for the subject. |
-| 4. **Domain Terminology Mistranslation**| 9 | `production time` was translated literally instead of as "production date." | Corrected to use appropriate domain-specific terms like "production date" or "acceleration performance." |
-| 5. **Omission or Alteration of Meaning**| 3 | `average` was translated simply as "average," omitting part of the intended meaning like "average capacity." | Revised to accurately reflect the original intent by adding the missing information. |
+| Error Type | Details | Correction |
+| :--- | :--- | :--- |
+| 1. **Time/Number Comparison Errors** | `more than` was translated to a Korean term meaning "greater than or equal to." | Corrected to use precise terms that exclude the boundary value, like "greater than" or "less than." |
+| 2. **Awkward Korean Phrasing** | Use of unnatural subjects, redundant modifiers, or awkward vocabulary. | Revised to be more natural in a Korean context by omitting or rephrasing words. |
+| 3. **Subject-Predicate Mismatch** | A question asking for a count or age used an incorrect interrogative pronoun ("what" instead of "how many"). | Corrected to use the appropriate predicate for the subject. |
+| 4. **Domain Terminology Mistranslation** | `production time` was translated literally instead of as "production date." | Corrected to use appropriate domain-specific terms like "production date" or "acceleration performance." |
+| 5. **Omission or Alteration of Meaning** | `average` was translated simply as "average," omitting part of the intended meaning like "average capacity." | Revised to accurately reflect the original intent by adding the missing information. |
