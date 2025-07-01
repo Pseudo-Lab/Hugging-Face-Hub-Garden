@@ -174,10 +174,9 @@ def generate_question(passage, question_type):
 ├── README.md                       # 프로젝트 소개 및 사용법
 ├── requirements.txt                # 의존성 패키지  
 ├── huggingface_inference.py        # 메인 사용 코드
-└── research/
-    ├── docx_to_json.py             # DOCX → JSON 변환기
-    ├── example_data.json           # 샘플 데이터
-    └── qwen3_8b_train_kor_exam.py  # 학습 코드
+├── docx_to_json.py             # DOCX → JSON 변환기
+├── example_data.json           # 샘플 데이터
+└── qwen3_8b_train_kor_exam.py  # 학습 코드
 ```
 
 ### Fine-tuning 설정
