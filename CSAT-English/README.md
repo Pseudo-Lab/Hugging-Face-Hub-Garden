@@ -7,7 +7,7 @@
 
 본 프로젝트는 AI를 활용하여 이러한 반복적인 작업을 자동화하고, 기존 문제를 기반으로 학생 수준에 적합한 유사 문제를 자동 생성함으로써 교사가 고품질 문제 제공에 집중할 수 있는 환경을 조성하는 것을 목표로 합니다.
 
-### 주요 목표
+### 주요 성과
 - **AI 기반 고등학교 2학년 영어 내신 문제 데이터셋 구축**
 - **문제 유형별 자동 생성 모델 Fine-tuning**
   - 주제 추론: 지문의 핵심 주제를 파악하는 문제
@@ -15,8 +15,9 @@
   - 어법 오류: 문법적으로 잘못된 부분을 찾는 문제
   - 제목 추론: 지문의 가장 적절한 제목을 찾는 문제
   - 내용 불일치: 지문 내용과 일치하지 않는 선택지를 찾는 문제
-
-- **기존 문제 기반 유사 문제 생성**을 통한 교육적 일관성 확보
+- **Fine-tuned 모델**
+  - **모델명**: [huggingface-KREW/Qwen3-8B-Korean-Highschool-English-Exam](https://huggingface.co/huggingface-KREW/Qwen3-8B-Korean-Highschool-English-Exam)
+  - **베이스 모델**: Qwen/Qwen3-8B
 
 ## 🗂️ 데이터 수집 및 전처리
 
@@ -66,9 +67,9 @@ HWP/PDF → DOCX → JSON
 
 ## 💻 기술 구현
 
-### 데이터 전처리 파이프라인
+### 1단계: 모델 학습을 위한 데이터 준비
 
-#### 1단계: 데이터 필터링 및 분할
+#### 핵심 문제 유형 선별
 ```python
 # 6가지 핵심 문제 유형 필터링
 target_questions = [
@@ -81,7 +82,7 @@ target_questions = [
 ]
 ```
 
-#### 2단계: Instruction Tuning 프롬프트 설계
+#### 학습용 프롬프트 생성
 ```python
 def create_prompt(ex):
     """문제 유형별 차별화된 프롬프트 생성"""
@@ -102,22 +103,21 @@ def create_prompt(ex):
         }]
 ```
 
-### 모델 아키텍처
+### 2단계: 모델 학습 설정
 
-#### LoRA Fine-tuning 설정
+#### LoRA Fine-tuning 구성
 ```python
 lora_cfg = LoraConfig(
-    r=16,                    # 저랭크 차원
-    lora_alpha=64,           # 스케일링 파라미터  
-    lora_dropout=0.05,       # 드롭아웃 비율
-    bias="none",
-    target_modules=[         # Attention & MLP 레이어 타겟
-        "q_proj", "k_proj", "v_proj", "o_proj",
-        "gate_proj", "up_proj", "down_proj"
-    ],
+    r=16, lora_alpha=64, lora_dropout=0.05,
+    target_modules=["q_proj", "k_proj", "v_proj", "o_proj", "gate_proj", "up_proj", "down_proj"],
     task_type=TaskType.CAUSAL_LM
 )
 ```
+
+#### 학습 파라미터
+- **베이스 모델**: Qwen/Qwen3-8B
+- **학습 방법**: LoRA (Low-Rank Adaptation)  
+- **Epochs**: 3, **Learning Rate**: 1e-4, **Batch Size**: 1
 
 #### 메모리 최적화
 ```python
@@ -126,18 +126,11 @@ bnb = BitsAndBytesConfig(
     bnb_4bit_quant_type="nf4", 
     bnb_4bit_compute_dtype=torch.bfloat16
 )
-
-base_model = AutoModelForCausalLM.from_pretrained(
-    model_path,
-    device_map="auto",
-    offload_folder="/tmp/offload_qwen3",
-    offload_state_dict=True
-)
 ```
 
-### 추론 시스템
+### 3단계: 모델 추론 및 성능 비교
 
-#### Fine-tuned vs Original 모델 비교 구현
+#### 학습된 모델과 기본 모델 비교
 ```python
 # Fine-tuned 모델 로드
 peft_model = PeftModel.from_pretrained(base_model, fine_tuned_path)
@@ -149,24 +142,6 @@ original_model = AutoModelForCausalLM.from_pretrained("Qwen/Qwen3-8B")
 for question_type in ['제목 추론', '주제 추론', '빈칸 추론', '어법 오류']:
     fine_tuned_output = generate_question(peft_model, passage, question_type)
     original_output = generate_question(original_model, passage, question_type)
-```
-
-### Hugging Face 배포
-```python
-# 모델 업로드 준비
-model = AutoPeftModelForCausalLM.from_pretrained(
-    "huggingface-KREW/Qwen3-8B-Korean-Highschool-English-Exam",
-    device_map="auto", 
-    torch_dtype=torch.bfloat16
-)
-
-# 추론 함수
-def generate_question(passage, question_type):
-    messages = [{"role": "user", "content": f"다음 영어 지문을 {question_type} 문제로 만들어주세요.\n\n지문:\n{passage}"}]
-    prompt = tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
-    inputs = tokenizer(prompt, return_tensors="pt")
-    outputs = model.generate(inputs["input_ids"].to("cuda"), max_new_tokens=1024)
-    return tokenizer.batch_decode(outputs, skip_special_tokens=True)[0]
 ```
 
 ### 코드 구조
@@ -208,4 +183,4 @@ def generate_question(passage, question_type):
 
 ## 🤝 협력 및 지원
 
-본 프로젝트는 사교육 기관의 데이터 지원과 전문 교사들의 문제 품질 평가 협력을 통해 진행되고 있으며, 실제 교육 현장의 피드백을 반영한 실용적인 도구 개발을 목표로 합니다.
+본 프로젝트는 사교육 기관의 데이터 및 교사들의 문제 품질 평가를 지원 받았습니다.
