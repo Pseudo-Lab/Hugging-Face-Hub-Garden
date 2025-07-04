@@ -1,0 +1,32 @@
+[project]
+name = "korean-culture-dataset"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "bitsandbytes>=0.45.5",
+    "datasets>=3.5.1",
+    "gradio>=5.29.0",
+    "ipykernel",
+    "jupyter",
+    "liger-kernel>=0.5.9",
+    "litellm>=1.72.2",
+    "openpyxl>=3.1.5",
+    "pandas>=2.2.3",
+    "torch>=2.6.0",
+    "torchvision>=0.21.0",
+    "transformers>=4.51.3",
+    "unsloth>=2025.4.7",
+    "unsloth-zoo>=2025.4.4",
+    "vllm>=0.8.5.post1",
+]
+
+[[tool.uv.index]]
+name = "pytorch-cu124"
+url = "https://download.pytorch.org/whl/cu124"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu124" }
+unsloth = { git = "https://github.com/unslothai/unsloth.git" }
