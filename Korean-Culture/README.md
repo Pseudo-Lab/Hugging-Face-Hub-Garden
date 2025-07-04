@@ -1,5 +1,5 @@
 
-이 프로젝트는 최신 한국어 신조어, 유행어, 밈을 사용하여 보다 자연스럽고 현실적인 한국어 대화를 생성하는 것을 목표로 합니다.
+![KoCulture-Dialogues_4](https://github.com/user-attachments/assets/50a1e7d8-b8a4-493d-9ff3-e6680bf82d1c)
 
 ## 목차
 - [학습모델](#학습모델)
